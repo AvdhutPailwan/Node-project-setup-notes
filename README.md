@@ -61,3 +61,18 @@ To write/change/see configurations go to ```package.json```
   - to read input from command line
 - ```minimist``` package
   - to read command line arguments
+
+## Testing
+
+### *[pupilfirst link](https://www.pupilfirst.school/courses/1804/curriculum)*
+
+#### **JEST**: <https://jestjs.io/>
+
+- installation
+  
+  ```bash
+  npm install jest --save-dev
+  ```
+
+- 
+

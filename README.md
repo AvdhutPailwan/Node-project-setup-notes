@@ -49,3 +49,15 @@ npm config ls
 ```
 
 To write/change/see configurations go to ```package.json```
+
+## Some common things which get used in javascript development
+
+- ```fs``` module
+  - used for file system operations
+- ```streams```
+  - used when dealing with huge data processing
+    it is efficient to use streams
+- ```readline``` module
+  - to read input from command line
+- ```minimist``` package
+  - to read command line arguments

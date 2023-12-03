@@ -74,5 +74,36 @@ To write/change/see configurations go to ```package.json```
   npm install jest --save-dev
   ```
 
-- 
+- create ```__tests__``` folder for tests
+  - The folder will contain ```.js``` files containing tests for the application
+  - every `.js` file will contain multiple ***test suites --> test cases***
+- Creating a ***test suite***
+  
+  ```js
+  describe("Test suite name", () => {
+    // write your test cases here
+  })
+  ```
 
+- Creating a ***test case***
+
+  ```js
+  // inside test suite
+  test("Test case name", () => {
+    // test your functionalities
+    expect(true).toBe(true)
+  })
+  ```
+  
+- Run test
+  - inside your package.json add script
+
+    ```json
+    "test": "jest"
+    ```
+
+  - to run
+
+    ```bash
+    npm test
+    ```
